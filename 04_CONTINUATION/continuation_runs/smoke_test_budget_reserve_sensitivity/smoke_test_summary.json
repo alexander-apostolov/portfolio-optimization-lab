@@ -1,0 +1,27 @@
+{
+  "test_id": "smoke_test_budget_reserve_sensitivity",
+  "purpose": "New continuation smoke test: conservative reserve ROI sensitivity and red-flag generation without overwriting baseline. Analytical smoke test, not new method benchmark.",
+  "red_flags": 0,
+  "summary": [
+    {
+      "method": "MSA",
+      "median_conservative_roi_pct": -0.432119809264793,
+      "rows": 9
+    },
+    {
+      "method": "Octane",
+      "median_conservative_roi_pct": 4.161956324376861,
+      "rows": 7
+    },
+    {
+      "method": "aOctane",
+      "median_conservative_roi_pct": 5.007450024548782,
+      "rows": 10
+    },
+    {
+      "method": "sCPA_lite",
+      "median_conservative_roi_pct": 18.477291294020468,
+      "rows": 10
+    }
+  ]
+}

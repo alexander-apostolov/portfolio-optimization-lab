@@ -1,0 +1,138 @@
+RUN 1
+RUN 2
+RUN 3
+RUN 4
+RUN 5
+RUN 6
+RUN 7
+RUN 8
+RUN 9
+RUN 10
+WROTE /mnt/data/R7_STRUCTURAL_SOFT_V18_MULTI_CONCEPT_LOCAL_AOCTANE_SEQUENCE_ONLY_MC1000_v1.zip
+{
+  "test_id": "R7_STRUCTURAL_SOFT_V18_MULTI_CONCEPT_LOCAL_AOCTANE_SEQUENCE_ONLY_MC1000_v1",
+  "status": "V18 multi-concept aOctane activation: Octane-expanded selected set with POL structural repair only; no discretionary add/drop/replace; multiple local sequence concepts; common MC1000 guard.",
+  "method_admissible_counts": {
+    "MSA": 9,
+    "Octane": 7,
+    "aOctane": 10,
+    "sCPA_lite": 10
+  },
+  "usable_ranking_comparison_worlds": 10,
+  "usable_ranking_comparison_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "strict_4way_worlds": 6,
+  "strict_4way_seeds": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "scpa_beats_best3_abs_worlds": 10,
+  "scpa_best4_worlds": 10,
+  "aOctane_diagnostic": {
+    "paired_admissible_worlds": 7,
+    "same_selected_set_worlds": 10,
+    "selection_changed_by_structural_repair_worlds": 0,
+    "same_sequence_worlds": 1,
+    "sequence_changed_worlds": 9,
+    "positive_p85_improvement_vs_expanded_octane_worlds": 6,
+    "median_paired_delta_vs_expanded_octane": 399.5679766823423,
+    "mean_paired_delta_vs_expanded_octane": 610.0532940973083,
+    "median_positive_delta_only_vs_expanded_octane": 512.434188536486,
+    "positive_extra_vs_guard_base_worlds": 5,
+    "median_extra_delta_positive_only_vs_guard_base": 918.0639487397202,
+    "total_candidate_sequences_generated": 66,
+    "total_candidate_sequences_mc1000_evaluated": 65
+  },
+  "method_level_medians": [
+    {
+      "method": "MSA",
+      "admissible_worlds": 9,
+      "median_selected_count": 29,
+      "median_p85_profit": -97.3574572669764,
+      "median_roi_pct_used_budget": -0.6181166837896088,
+      "median_roi_pct_active_budget_envelope": -0.5023604606139133,
+      "median_roi_pct_full_22p_budget_envelope": -0.4753317901912723,
+      "median_duration": 22,
+      "median_portfolio_budget_det": 16138.02,
+      "median_avg_budget_util_pct": 77.47264217647205,
+      "median_max_budget_util_pct": 97.90977443609023,
+      "median_avg_constraint_util_pct": 70.14972068555555,
+      "median_max_constraint_util_pct": 99.22916666666667,
+      "median_p85_per_constraint_unit": -1.476701561785806,
+      "median_wip_avg": 2.409090909090909,
+      "median_wip_max": 4,
+      "near_all_selected_worlds": 0
+    },
+    {
+      "method": "Octane",
+      "admissible_worlds": 7,
+      "median_selected_count": 28,
+      "median_p85_profit": 937.6970837947556,
+      "median_roi_pct_used_budget": 5.790455406467864,
+      "median_roi_pct_active_budget_envelope": 4.838478244554983,
+      "median_roi_pct_full_22p_budget_envelope": 4.578151956814548,
+      "median_duration": 20,
+      "median_portfolio_budget_det": 16193.84,
+      "median_avg_budget_util_pct": 77.81814350068173,
+      "median_max_budget_util_pct": 99.57518796992481,
+      "median_avg_constraint_util_pct": 70.1677513418607,
+      "median_max_constraint_util_pct": 99.05660377358491,
+      "median_p85_per_constraint_unit": 13.95673330447944,
+      "median_wip_avg": 2.55,
+      "median_wip_max": 4,
+      "near_all_selected_worlds": 0
+    },
+    {
+      "method": "aOctane",
+      "admissible_worlds": 10,
+      "median_selected_count": 26.0,
+      "median_p85_profit": 1128.1885054308898,
+      "median_roi_pct_used_budget": 8.416901488679903,
+      "median_roi_pct_active_budget_envelope": 5.864839454057701,
+      "median_roi_pct_full_22p_budget_envelope": 5.50819502700366,
+      "median_duration": 19.0,
+      "median_portfolio_budget_det": 14640.29,
+      "median_avg_budget_util_pct": 77.35961651832471,
+      "median_max_budget_util_pct": 99.03700657894737,
+      "median_avg_constraint_util_pct": 68.77940516589567,
+      "median_max_constraint_util_pct": 99.04166666666667,
+      "median_p85_per_constraint_unit": 18.35929528658931,
+      "median_wip_avg": 2.304112554112554,
+      "median_wip_max": 4.0,
+      "near_all_selected_worlds": 0
+    },
+    {
+      "method": "sCPA_lite",
+      "admissible_worlds": 10,
+      "median_selected_count": 25.5,
+      "median_p85_profit": 4162.970683125401,
+      "median_roi_pct_used_budget": 28.234744861417923,
+      "median_roi_pct_active_budget_envelope": 23.272284072061368,
+      "median_roi_pct_full_22p_budget_envelope": 20.325020423422515,
+      "median_duration": 19.0,
+      "median_portfolio_budget_det": 15316.119999999999,
+      "median_avg_budget_util_pct": 80.24616026573548,
+      "median_max_budget_util_pct": 98.79885057471265,
+      "median_avg_constraint_util_pct": 68.88760791758979,
+      "median_max_constraint_util_pct": 99.66666666666667,
+      "median_p85_per_constraint_unit": 68.91630980134217,
+      "median_wip_avg": 2.425,
+      "median_wip_max": 4.0,
+      "near_all_selected_worlds": 0
+    }
+  ]
+}

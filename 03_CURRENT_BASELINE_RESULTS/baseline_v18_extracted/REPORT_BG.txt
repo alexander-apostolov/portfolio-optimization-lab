@@ -1,0 +1,25 @@
+R7_STRUCTURAL_SOFT_V18_MULTI_CONCEPT_LOCAL_AOCTANE_SEQUENCE_ONLY_MC1000_v1
+
+V18 multi-concept aOctane activation: Octane-expanded selected set with POL structural repair only; no discretionary add/drop/replace; multiple local sequence concepts; common MC1000 guard.
+
+Method admissible counts: {'MSA': 9, 'Octane': 7, 'aOctane': 10, 'sCPA_lite': 10}
+Usable ranking: 10/10; strict 4-way: 6/10; sCPA beats best ranking: 10/10; sCPA best overall: 10/10
+aOctane diagnostic: {'paired_admissible_worlds': 7, 'same_selected_set_worlds': 10, 'selection_changed_by_structural_repair_worlds': 0, 'same_sequence_worlds': 1, 'sequence_changed_worlds': 9, 'positive_p85_improvement_vs_expanded_octane_worlds': 6, 'median_paired_delta_vs_expanded_octane': 399.5679766823423, 'mean_paired_delta_vs_expanded_octane': 610.0532940973083, 'median_positive_delta_only_vs_expanded_octane': 512.434188536486, 'positive_extra_vs_guard_base_worlds': 5, 'median_extra_delta_positive_only_vs_guard_base': 918.0639487397202, 'total_candidate_sequences_generated': 66, 'total_candidate_sequences_mc1000_evaluated': 65}
+
+Method medians over admissible worlds:
+- MSA: adm 9/10; selected 29; P85 -97.3574572669764; ROI used budget -0.6181166837896088%; ROI full 22p -0.4753317901912723%; avg budget util 77.47264217647205%; avg constraint util 70.14972068555555%; P85/constraint -1.476701561785806
+- Octane: adm 7/10; selected 28; P85 937.6970837947556; ROI used budget 5.790455406467864%; ROI full 22p 4.578151956814548%; avg budget util 77.81814350068173%; avg constraint util 70.1677513418607%; P85/constraint 13.95673330447944
+- aOctane: adm 10/10; selected 26.0; P85 1128.1885054308898; ROI used budget 8.416901488679903%; ROI full 22p 5.50819502700366%; avg budget util 77.35961651832471%; avg constraint util 68.77940516589567%; P85/constraint 18.35929528658931
+- sCPA_lite: adm 10/10; selected 25.5; P85 4162.970683125401; ROI used budget 28.234744861417923%; ROI full 22p 20.325020423422515%; avg budget util 80.24616026573548%; avg constraint util 68.88760791758979%; P85/constraint 68.91630980134217
+
+aOctane seed audit:
+- seed 1: Octane adm=False P85=None; V16=-1883.3285755787676; V17=-1883.3285755787676; V18 adm=True P85=-1031.0071504506684; delta_vs_O=None; extra_vs_guard=None; concept=global_urgency_desc ; repair_added=; same_seq=False
+- seed 2: Octane adm=True P85=937.6970837947556; V16=937.6970837947556; V17=937.6970837947556; V18 adm=True P85=1237.8082350321686; delta_vs_O=300.11115123741297; extra_vs_guard=300.11115123741297; concept=group_block_order group_U_F_B_E_value; repair_added=; same_seq=False
+- seed 3: Octane adm=True P85=1626.7161694240092; V16=2026.2841461063515; V17=2026.2841461063515; V18 adm=True P85=2026.2841461063515; delta_vs_O=399.5679766823423; extra_vs_guard=0.0; concept=guard_base ; repair_added=; same_seq=False
+- seed 4: Octane adm=True P85=740.6510974072739; V16=816.8241263655622; V17=816.8241263655622; V18 adm=True P85=1018.568775829611; delta_vs_O=277.9176784223371; extra_vs_guard=201.74464946404885; concept=group_block_order group_U_E_B_F_value; repair_added=; same_seq=False
+- seed 5: Octane adm=True P85=788.721257167991; V16=1490.4199680263932; V17=1490.4199680263932; V18 adm=True P85=1490.4199680263932; delta_vs_O=701.6987108584023; extra_vs_guard=0.0; concept=guard_base ; repair_added=; same_seq=False
+- seed 6: Octane adm=True P85=-1072.487814739715; V16=-385.8549994206933; V17=-385.8549994206933; V18 adm=True P85=893.2893263503183; delta_vs_O=1965.7771410900334; extra_vs_guard=1279.1443257710116; concept=group_block_order group_U_B_E_F_hybrid; repair_added=; same_seq=False
+- seed 7: Octane adm=False P85=None; V16=-1180.476841372944; V17=-1180.476841372944; V18 adm=True P85=-222.59915775805678; delta_vs_O=None; extra_vs_guard=957.8776836148871; concept=group_block_order group_U_B_E_F_hybrid; repair_added=; same_seq=False
+- seed 8: Octane adm=False P85=None; V16=-902.8448966958997; V17=-347.1663046232812; V18 adm=True P85=570.8976441164391; delta_vs_O=None; extra_vs_guard=918.0639487397202; concept=group_block_order group_U_F_B_E_value; repair_added=; same_seq=False
+- seed 9: Octane adm=True P85=1088.2090848805283; V16=1713.509485271158; V17=1713.509485271158; V18 adm=True P85=1713.509485271158; delta_vs_O=625.3004003906296; extra_vs_guard=0.0; concept=guard_base ; repair_added=; same_seq=False
+- seed 10: Octane adm=True P85=1644.1824269810697; V16=1644.1824269810697; V17=1644.1824269810697; V18 adm=True P85=1644.1824269810697; delta_vs_O=0.0; extra_vs_guard=0.0; concept=guard_base ; repair_added=; same_seq=True

@@ -1,0 +1,13 @@
+{
+  "package_name": "Portfolio Waste Discovery Lab — Reproduction Pack",
+  "date_current": "2026-06-11",
+  "current_baseline": "V18 multi-concept local aOctane sequence-only MC1000",
+  "traceability_context": "POL Iteration 3 / R7 calibrated structural-soft context",
+  "second_pass_audit_status": "READY FOR HANDOFF",
+  "second_pass_audit_date": "2026-06-11",
+  "package_revision": "AUDITED_v3_license_explicit_use_restrictions",
+  "license_notice_update": "Explicit no-publication/no-commercial/no-redistribution/no-sublicensing/no-independent-presentation clause added on 2026-06-11.",
+  "package_version": "v4_windows_safe_repack",
+  "external_filename": "PWDL_v4.zip",
+  "notes": "Windows-safe repack: engine stored as nested engine_v28_bundle.zip; license v3 update retained."
+}

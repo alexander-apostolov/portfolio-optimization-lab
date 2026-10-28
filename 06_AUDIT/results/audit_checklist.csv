@@ -1,0 +1,38 @@
+check,status,detail
+required:00_START_HERE/README_START_HERE.md,PASS,missing
+required:01_METHOD_GUIDE/Four_Methods_Explained.md,PASS,missing
+required:01_METHOD_GUIDE/Portfolio_Waste_Metrics.md,PASS,missing
+required:03_CURRENT_BASELINE_RESULTS/baseline_v18_extracted/summary.json,PASS,missing
+required:LICENSE_AND_ATTRIBUTION.md,PASS,missing
+admissible_count_MSA,PASS,9
+admissible_count_Octane,PASS,7
+admissible_count_aOctane,PASS,10
+admissible_count_sCPA_lite,PASS,10
+usable_ranking_comparison_worlds,PASS,10
+strict_4way_worlds,PASS,6
+scpa_beats_best3_abs_worlds,PASS,10
+scpa_best4_worlds,PASS,10
+raw_count_MSA,PASS,9
+median_MSA_p85_profit,PASS,-97.3574572669764 vs -97.3574572669764
+median_MSA_roi_pct_used_budget,PASS,-0.6181166837896088 vs -0.6181166837896088
+median_MSA_avg_budget_util_pct,PASS,77.47264217647205 vs 77.47264217647205
+raw_count_Octane,PASS,7
+median_Octane_p85_profit,PASS,937.6970837947556 vs 937.6970837947556
+median_Octane_roi_pct_used_budget,PASS,5.790455406467864 vs 5.790455406467864
+median_Octane_avg_budget_util_pct,PASS,77.81814350068173 vs 77.81814350068173
+raw_count_aOctane,PASS,10
+median_aOctane_p85_profit,PASS,1128.1885054308898 vs 1128.1885054308898
+median_aOctane_roi_pct_used_budget,PASS,8.416901488679903 vs 8.416901488679903
+median_aOctane_avg_budget_util_pct,PASS,77.35961651832471 vs 77.35961651832471
+raw_count_sCPA_lite,PASS,10
+median_sCPA_lite_p85_profit,PASS,4162.970683125401 vs 4162.970683125401
+median_sCPA_lite_roi_pct_used_budget,PASS,28.234744861417923 vs 28.234744861417923
+median_sCPA_lite_avg_budget_util_pct,PASS,80.24616026573548 vs 80.24616026573548
+period_budget_violations,PASS,
+period_constraint_violations,PASS,
+duplicate_selected_ids,PASS,
+selected_sequence_same_set,PASS,
+aOctane_not_below_Octane,PASS,[]
+best_overall_is_sCPA_lite_all_worlds,PASS,
+suspicious_red_flags,PASS,0
+continuation_smoke_test_output_present,PASS,missing
